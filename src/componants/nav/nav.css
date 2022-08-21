@@ -1,0 +1,88 @@
+.nav{
+    margin: 0%;
+    display: grid;
+    gap: .02rem;
+    grid-template-columns: repeat(auto-fit, minmax(.5px, 0.2fr));
+    justify-content: center;
+    
+}
+
+ul {
+    list-style-type: none;
+}
+
+.icon{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    justify-self: center;
+    
+}
+
+
+.up{
+ 
+    border-radius: 15%;
+    margin: auto;
+    font-size: 20px;
+    justify-items: center;
+    display: grid;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+  }
+
+.header{
+    border: 0px;
+    margin: 0%;
+    display: grid;
+    gap: .5rem;
+    background-color: #324B4E;
+    grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+    top: 0;
+    width: 100%;
+    position: fixed;
+    
+    
+}
+
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:visited{
+    color: inherit;
+    
+}
+
+h5{
+ font-family: 'Roboto Mono', monospace;
+ margin: 0px;
+}
+
+
+#about,#contact,#achevments,#home,#shop{
+   border-radius: 4px;
+   color:#6AD1DF ;
+   background-color: #324B4E;
+   transition-duration: 0.4s;
+   height: 50%;
+   width: 70%;
+   justify-items: center;
+   display: grid;
+   align-items: center;
+
+}
+
+#about:hover,#contact:hover,#achevments:hover,#home:hover,#shop:hover{
+    background-color: #6AD1DF;
+    color: #324B4E;
+    height: 50%;
+    width: 70%;
+    justify-items: center;
+    display: grid;
+    align-items: center;
+  
+}

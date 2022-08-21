@@ -1,0 +1,23 @@
+#potato {
+  transition-duration: 0.4s;
+  background-color:#324B4E ;
+  border-radius: 8px;
+  width:60px;
+  height: 30px;
+  color: #6AD1DF;
+  border: 2px solid #6AD1DF;
+  box-shadow: 2px 2px#324B4E;
+  margin-bottom: 6px;
+  margin-left: 4px;
+
+}
+  
+.potato{
+  font-size: 8px;
+}
+
+#potato:hover {
+  background-color: #6AD1DF;
+  color:#324B4E;
+}
+

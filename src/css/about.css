@@ -1,0 +1,35 @@
+
+
+#first{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+}
+.cv{
+  text-align: start;
+  color:#324B4E;
+  font-size: 46px;
+  font-family: 'Nunito', sans-serif;
+
+}
+
+
+  
+#khpic{
+    border-radius: 8px;
+    box-shadow: 7px 7px #324B4E;
+    border: 2px solid #6AD1DF;
+    height:600px;
+    width:600px;
+  }
+  
+
+  #khalidqnabi{
+    text-align: start;
+    justify-self:center;
+    color:#6AD1DF;
+    font-size:70px;
+    font-family: 'Sacramento', cursive;
+    text-shadow: 3px 3px#324B4E;
+  }
+

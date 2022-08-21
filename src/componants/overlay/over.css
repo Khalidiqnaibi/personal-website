@@ -1,0 +1,76 @@
+.t{
+    color: #6AD1DF;
+    text-align: center;
+    font-size:55px;
+    font-family: 'Comfortaa', cursive;
+    
+    
+}
+#newstxt{
+    margin-right:240% ;
+}
+.btntxt{
+    font-size: 20px;
+    color: #324B4E;
+    margin: 0px;
+    font-family: 'Comfortaa', cursive;
+}
+.par{
+    
+    color: #F0B694;
+    text-align: center;
+    font-size:30px;
+    font-family: 'Pacifico', cursive;
+    
+    
+}
+#programing{
+    background-image: url(../../ciu.png);
+    background-size: 160%;
+    background-position: center;
+    margin-left: 70%;
+
+}
+#progrtxt{
+    margin-right: 200%;
+    margin-left: -110%;
+}
+.overlaydiv{
+    height: 700px;
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20px, .9fr));
+    justify-items: center;
+    justify-self: center;
+    margin-top: 25px;
+    margin-left: 25%;
+   
+}
+
+.txt{
+    height:80%;
+    width: 60%;
+    align-self: center;
+    margin-left: -55%;
+    background-color:#324B4E;
+    border: 2px solid #F0B694;
+    border-radius: 8px;
+}
+#newst{
+    font-size: 40px;
+}
+#coffe{
+    background-image: url(../../20210409144409_IMG_1412.JPG);
+    background-size: 120%;
+    background-position: center;
+}
+.photo{      
+    height: 90%;
+    width: 140%;
+    align-self: center;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    margin-left: -25%;
+}

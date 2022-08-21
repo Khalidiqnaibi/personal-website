@@ -1,0 +1,75 @@
+body {
+  height: 100%;
+  margin: 0%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+
+#content-inner {
+  margin: 100px auto;
+  width: 95%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+   
+}
+
+#background{
+  background-color: #F0B694;
+  height:100%;
+  width: 100%;
+  display: grid;
+
+}
+
+#title {
+  color : #6AD1DF;
+  grid-column:  span 2;
+  justify-self: start;
+  justify-content: start;
+  margin: auto;
+  margin-top: 2px;
+  padding-left: 2.5%;
+  margin-bottom: 6px;
+  text-align:start;
+  font-family: 'Sacramento', cursive;
+  font-size: 40px;
+}
+a{
+  text-decoration: none;
+}
+a:visited{
+ color: inherit;
+}
+
+.p {
+  text-align: start;
+  color:#324B4E;
+  font-size: 35px;
+  font-family: 'Nunito', sans-serif;
+
+}
+
+#logo{
+  margin-left: 10%;
+  height: 120px;
+  width: 120px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  
+}
+
+::-webkit-scrollbar-track {
+  background:#324B4E ;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #6AD1DF;
+}
+::-webkit-scrollbar-thumb:hover {
+  background:#77efff;
+}

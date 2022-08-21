@@ -1,0 +1,51 @@
+
+#content-home{
+    background-color:#F0B694;
+    height:100%;
+    width: 100%;
+    display: grid;
+
+}
+
+#picitook{ 
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#222), to(rgba(70, 70, 70, 0))),url(../merorpic.jpg);
+    height:700px;
+    width: 100%;
+    background-position:center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: grid;
+    margin-top: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));
+}
+.dsctxt{
+    justify-self:end ;
+    width: 30%;
+}
+#disc{
+    margin-top: 25%;
+    color:#F0B694;
+    text-align: center;
+    font-size: 60px;
+    align-content: center;
+    text-shadow:2px 2px #324B4E;
+    width: 90%;
+    font-family: 'Comfortaa', cursive;
+    
+}
+#dp{
+    color:#6AD1DF;
+    text-align:center;
+    font-size: 30px;
+    text-shadow:1px 1px #F0B694;
+    width: 100%;
+    font-family: 'Pacifico', cursive;
+
+}
+#favsong{
+    color: #324B4E;
+    font-family: 'Comfortaa', cursive;
+    margin-left: 10%;
+    font-size: 70px;
+    text-shadow:3px 3px #6AD1DF;
+}
