@@ -8,7 +8,7 @@
 }
 
 #picitook{ 
-    background-image: -webkit-gradient(linear, left bottom, left top, from(#222), to(rgba(70, 70, 70, 0))),url(../merorpic.jpg);
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(65, 65, 65, 0.781)), to(rgba(51, 51, 51, 0))),url(../merorpic.jpg);
     height:700px;
     width: 100%;
     background-position:center;

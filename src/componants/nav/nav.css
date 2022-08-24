@@ -1,38 +1,86 @@
-.nav{
-    margin: 0%;
-    display: grid;
-    gap: .02rem;
+@media all{
+    .nav{
+        margin: 0%;
+        gap: .02rem;
     grid-template-columns: repeat(auto-fit, minmax(.5px, 0.2fr));
     justify-content: center;
     
 }
-
+.menu-btn {
+    position: relative;
+    display: grid;
+    justify-content:end;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    margin-top: -7px;
+    margin-right: 5%;
+}
+  .mnav{
+      margin: 0%;
+      display: grid;
+      gap: 25px;
+      margin-top: -3px;
+      width: 70%;
+      justify-self: center;
+      margin-left: 27%;
+      height:150%;
+      grid-template-rows: repeat(auto-fit, minmax(30px, 1fr));
+      column-gap: 0%;
+      border-bottom-left-radius: 8px;
+      border-bottom-right-radius: 8px;
+      border-top: 2px solid #F0B694;
+      justify-content: center;
+      background-color: #324b4eda;
+    
+}
+#lastmn{
+    margin-bottom: 20px;
+}
+#fstmn{
+    margin-top: 15px;
+}
 ul {
     list-style-type: none;
 }
 
-.icon{
-    display: flex;
-    width: 40px;
-    height: 40px;
-    justify-self: center;
-    
+.nheader,.burgrm{
+    display: none;
 }
 
+.upm{
+    font-size: 125%;
+    display: grid;
+    justify-items: center;
+    height: 100%;
+    width: 110%;
+    align-items: center;
+    
+}  
 
 .up{
- 
     border-radius: 15%;
     margin: auto;
     font-size: 20px;
     justify-items: center;
-    display: grid;
     align-items: center;
-    width: 100%;
+    width: 110%;
     height: 100%;
     
-  }
-
+}  
+.naheader{
+    border: 0px;
+    margin: 0%;
+    width: 100%;
+    display: grid;
+    gap: 50px;
+    background-color: #324B4E;
+    grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+    top: 0;
+    width: 100%;
+}
 .header{
     border: 0px;
     margin: 0%;
@@ -43,11 +91,7 @@ ul {
     top: 0;
     width: 100%;
     position: fixed;
-    
-    
 }
-
-
 a{
     text-decoration: none;
     color: inherit;
@@ -58,22 +102,41 @@ a:visited{
 }
 
 h5{
- font-family: 'Roboto Mono', monospace;
- margin: 0px;
+    font-family: 'Roboto Mono', monospace;
+    margin: 0px;
+    font-weight: bolder;
+    text-align: center;
+    align-self: center;
 }
-
-
+#aboutm,#contactm,#achevmentsm,#homem,#shopm{
+   border-radius: 4px;
+   color:#6AD1DF ;          
+   transition-duration: 0.4s;
+   height: 50%;
+   width: 100%;
+   display: grid;
+   justify-items: center;
+   align-items: center;
+}
 #about,#contact,#achevments,#home,#shop{
    border-radius: 4px;
-   color:#6AD1DF ;
+   color:#6AD1DF ;          
    background-color: #324B4E;
    transition-duration: 0.4s;
    height: 50%;
    width: 70%;
    justify-items: center;
-   display: grid;
    align-items: center;
-
+   
+}
+#aboutm:hover,#contactm:hover,#achevmentsm:hover,#homem:hover,#shopm:hover{
+    background-color: #6ad1dfb9;
+    color: #324B4E;
+    height: 50%;
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
 }
 
 #about:hover,#contact:hover,#achevments:hover,#home:hover,#shop:hover{
@@ -82,7 +145,69 @@ h5{
     height: 50%;
     width: 70%;
     justify-items: center;
-    display: grid;
     align-items: center;
   
 }
+}
+@media (min-width: 1800px){
+    .nav,.up,#about,a,#contact,#achevments,#home,#shop,#about:hover,#contact:hover,#achevments:hover,#home:hover,#shop:hover{
+        display: grid;
+    }
+}
+@media (max-width: 1800px){
+    .burgrm{
+        display: grid;
+        width: 100%;
+        justify-items: end;
+    }
+    .nheader{
+        border: 0px;
+        margin: 0%;
+        display: grid;
+        gap: .5rem;
+        background-color: #324B4E;
+        grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+        top: 0;
+        width: 100%;
+        height: 70px;
+        justify-items: end;
+    
+    }
+    .nav{
+        display:none;
+    }
+}
+@media (max-width: 1200px){
+    /*smaller hero pic*/
+    /*smaller herotxt*/
+    /*smaller ciu txt*/
+    
+}
+@media (max-width: 600px){
+    /*smaller hero pic*/
+    /*smaller herotxt*/
+    /*smaller ciu txt*/
+    /*adjust over to the center + make it smaller*/
+    /*pics itook : adjust to center and make smaller*/
+    /*hero sec margin top smaller*/
+    /*footer  of two rows or maybe three*/
+    
+}
+@media (max-width: 900px){
+    /*smaller hero pic*/
+    /*smaller herotxt*/
+    /*smaller ciu txt*/
+    /*adjust over to the center + make it smaller*/
+    /*pics itook : adjust to center and make smaller*/
+    /*hero sec margin top smaller*/
+    /*over pic bigger*/
+    /*footer  of two rows or maybe three*/
+}
+@media (max-width: 1000px){
+    /*smaller hero pic*/
+    /*over txt smaller*/
+    /*smaller herotxt*/
+    /*smaller ciu txt*/
+    /*over pic bigger*/
+}
+
