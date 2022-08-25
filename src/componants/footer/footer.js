@@ -24,7 +24,7 @@ export default function Footer(){
               </div>
             </div>
             <div id='downf'>
-                <h6>all rights are reserved to khalid qnabi © 2022 </h6>
+                <h6 id='ftrtxt'>all rights are reserved to khalid qnabi © 2022 </h6>
             </div>
 
         </div>

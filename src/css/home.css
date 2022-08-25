@@ -1,18 +1,21 @@
-
-#content-home{
-    background-color:#F0B694;
-    height:100%;
-    width: 100%;
-    display: grid;
-
+@media all {
+    
+    #content-home{
+        background-color:#F0B694;
+        display: block;
+        max-height: 100%;
+        margin: 0 auto;
+        width: auto;
+        max-width: 100%;
+        overflow-y: auto;
+        overflow-x: hidden;
+        
 }
 
 #picitook{ 
     background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(65, 65, 65, 0.781)), to(rgba(51, 51, 51, 0))),url(../merorpic.jpg);
-    height:700px;
     width: 100%;
     background-position:center;
-    background-size: 100%;
     background-repeat: no-repeat;
     display: grid;
     margin-top: 30px;
@@ -20,13 +23,11 @@
 }
 .dsctxt{
     justify-self:end ;
-    width: 30%;
 }
 #disc{
     margin-top: 25%;
     color:#F0B694;
     text-align: center;
-    font-size: 60px;
     align-content: center;
     text-shadow:2px 2px #324B4E;
     width: 90%;
@@ -36,7 +37,6 @@
 #dp{
     color:#6AD1DF;
     text-align:center;
-    font-size: 30px;
     text-shadow:1px 1px #F0B694;
     width: 100%;
     font-family: 'Pacifico', cursive;
@@ -48,4 +48,89 @@
     margin-left: 10%;
     font-size: 70px;
     text-shadow:3px 3px #6AD1DF;
+}
+}
+@media (min-width:900px) {
+    #picitook{  
+      height:700px;
+      background-size: 100%;
+    }
+    #disc{
+        font-size: 60px;
+    }
+    #dp{
+        font-size: 30px;
+    }
+    .dsctxt{
+        width: 30%;
+    }
+}
+
+@media (max-width: 1000px){
+
+    #picitook{ 
+        background-size: 120%;
+    }
+}
+
+@media (max-width: 900px){
+    #picitook{
+        height: 500px;
+    }
+    #disc{
+        font-size: 40px;
+    }
+    #dp{
+        font-size: 25px;
+    }
+    .dsctxt{
+        width: 35%;
+    }
+}
+
+@media (max-width: 860px){
+    
+    #picitook{
+        height: 400px;
+    }
+    #disc{
+        font-size: 35px;
+    }
+    #dp{
+        font-size:20px;
+    }
+    .dsctxt{
+        width: 35%;
+    }
+}
+@media (max-width: 500px){
+    
+    #picitook{
+        height: 300px;
+    }
+    #disc{
+        font-size: 25px;
+    }
+    #dp{
+        font-size:10px;
+    }
+    .dsctxt{
+        width: 35%;
+    }
+}
+
+@media (max-width: 360px){
+    
+    #picitook{
+        height: 250px;
+    }
+    #disc{
+        font-size: 25px;
+    }
+    #dp{
+        font-size:10px;
+    }
+    .dsctxt{
+        width: 35%;
+    }
 }

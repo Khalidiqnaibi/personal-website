@@ -83,14 +83,15 @@ ul {
 }
 .header{
     border: 0px;
-    margin: 0%;
+    margin: 0px;
     display: grid;
     gap: .5rem;
     background-color: #324B4E;
     grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
-    top: 0;
+    top: 0px;
+    margin-top: -2px;
     width: 100%;
-    position: fixed;
+    position: sticky;
 }
 a{
     text-decoration: none;
@@ -177,12 +178,6 @@ h5{
         display:none;
     }
 }
-@media (max-width: 1200px){
-    /*smaller hero pic*/
-    /*smaller herotxt*/
-    /*smaller ciu txt*/
-    
-}
 @media (max-width: 600px){
     /*smaller hero pic*/
     /*smaller herotxt*/
@@ -204,10 +199,6 @@ h5{
     /*footer  of two rows or maybe three*/
 }
 @media (max-width: 1000px){
-    /*smaller hero pic*/
-    /*over txt smaller*/
-    /*smaller herotxt*/
-    /*smaller ciu txt*/
-    /*over pic bigger*/
+    /*pic i took full pic*/
 }
 

@@ -11,7 +11,9 @@ export default function Over(props){
      };
      abtns={
       display: 'none',
+      width:"70%",
       margin: 'auto',
+      height:'10%',
       justifyContent: 'center',
     };
     
@@ -23,17 +25,19 @@ export default function Over(props){
         padding:' 8px 16px',
         fontSize: '16px',
         fontWeight: '700',
-        lineHeight: '26px',
         cursor: "pointer",
         color: '#324B4E',
+        margin: 'auto',
         borderColor: '#F0B694',
         boxShadow: '4px 4px#324B4E',
-       
+        maxWidth:"100%",
+        maxHeight:"100%",
     };
     abtns={
       display: 'grid',
+      width:"60%",
       margin: 'auto',
-      height:'7%',
+      height:'10%',
       justifyContent: 'center',
     };
   }
