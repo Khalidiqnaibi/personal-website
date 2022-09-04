@@ -7,7 +7,7 @@ export default function Burgr(){
     if (!Open){
     return(
       <div className="menu-btn" onClick={()=>setOpen(!Open)}>
-        <img src="./list.svg" alt="menu" className="menu-btn__burger"/>
+        <img src="./list.svg" alt="menu" className="menu-btn__burgeropn"/>
       </div>
     );
   }else{

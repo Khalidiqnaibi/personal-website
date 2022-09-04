@@ -11,30 +11,42 @@
     display: grid;
     justify-content:end;
     align-items: center;
-    width: 80px;
-    height: 80px;
     cursor: pointer;
+    width: 50%;
+    height: 100%;
     transition: all .5s ease-in-out;
     margin-top: -7px;
     margin-right: 5%;
+    justify-items: end;
 }
-  .mnav{
-      margin: 0%;
-      display: grid;
-      gap: 25px;
-      margin-top: -3px;
-      width: 70%;
-      justify-self: center;
-      margin-left: 27%;
-      height:150%;
-      grid-template-rows: repeat(auto-fit, minmax(30px, 1fr));
-      column-gap: 0%;
-      border-bottom-left-radius: 8px;
-      border-bottom-right-radius: 8px;
-      border-top: 2px solid #F0B694;
-      justify-content: center;
-      background-color: #324b4eda;
-    
+.menu-btn__burger{
+    width: 50%;
+    height: 70px;
+    margin-bottom: 10px;
+
+}
+.menu-btn__burgeropn{
+    width:100%;
+    height: 50%;
+
+}
+.mnav{
+    margin: 0%;
+    display: grid;
+    gap: 25px;
+    margin-top: -3px;
+    width: 70%;
+    justify-self: center;
+    margin-left: 27%;
+    height:150%;
+    grid-template-rows: repeat(auto-fit, minmax(30px, 1fr));
+    column-gap: 0%;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top: 2px solid #F0B694;
+    justify-content: center;
+    background-color: #324b4eda;
+  
 }
 #lastmn{
     margin-bottom: 20px;
@@ -91,7 +103,7 @@ ul {
     top: 0px;
     margin-top: -2px;
     width: 100%;
-    position: sticky;
+    position: fixed;
 }
 a{
     text-decoration: none;
@@ -151,7 +163,7 @@ h5{
 }
 }
 @media (min-width: 1800px){
-    .nav,.up,#about,a,#contact,#achevments,#home,#shop,#about:hover,#contact:hover,#achevments:hover,#home:hover,#shop:hover{
+    .nav,.up,#about,#contact,#achevments,#home,#shop,#about:hover,#contact:hover,#achevments:hover,#home:hover,#shop:hover{
         display: grid;
     }
 }
