@@ -83,7 +83,8 @@
         font-size: 40px;
     }
     .op{
-        height:200px;
+        margin-top: 50px;
+        height:230px;
     }
 
 }
@@ -95,6 +96,23 @@
     }
     #ontop{
         padding: 5%;
+        margin-bottom: 0px;
+    }
+
+}
+
+
+
+
+@media (max-width: 280px){
+    
+    #herojok{
+        font-size: 15px;
+        padding-left: 8%;
+        margin-top: 0px;
+    }
+    #ontop{
+        font-size: 25px;
         margin-bottom: 0px;
     }
 

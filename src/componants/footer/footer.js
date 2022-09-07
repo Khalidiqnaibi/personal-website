@@ -16,6 +16,7 @@ export default function Footer(){
                     <a className='icons'  target="_blank" rel="noopener noreferrer"  href='https://www.snapchat.com/add/khalid_q2004?share_id=pt3s-2LwWIo&locale=en-US'><img className='social' src='./snapchat.svg' alt='snapchat'/></a>
                     <a className='icons'  target="_blank" rel="noopener noreferrer"  href='https://www.youtube.com/channel/UCQ1VG5R9Iu9Z14Ppn3g0joQ'><img className='social' src='./youtube.svg' alt='youtube'/></a>
                     <a className='icons'  target="_blank" rel="noopener noreferrer"  href='https://www.facebook.com/KHALIDQNABI'><img className='social' src='./facebook.svg' alt='facbook'/></a>
+                    <a className='icons'  target="_blank" rel="noopener noreferrer"  href='https://linktr.ee/Khalid_qnabi'><img className='social' src='./icons8-linktree-16.svg' alt='linktree'/></a>
                     <a className='icons'  target="_blank" rel="noopener noreferrer"  href='https://www.tiktok.com/@khalidqnabi'><img className='social' src='./tiktok.svg' alt='tiktok'/></a>
                     <a className='icons'  target="_blank" rel="noopener noreferrer"  href='mailto:khalidqnabi@gmail.com'><img className='social' src='./envelope-fill.svg' alt='gmail'/></a>
                     <a className='icons'  target="_blank" rel="noopener noreferrer"  href='https://www.paypal.com/paypalme/khalidqnabi'><img className='social' src='./paypal.svg' alt='paypal'/></a>

@@ -47,7 +47,7 @@ export default function Over(props){
        <div id={props.id} className='photo' ></div>
        <div id={props.txtid} className='txt'>
        <h1 id={props.titleid} className='t'>{props.title}</h1>
-       <p id={props.prid} className='par'>{props.text}</p>
+       <p id={props.prid} className='par'>{props.text1}<br/>{props.text2}</p>
        <a target="_blank" style={abtns} rel="noopener noreferrer" className="abtn" href={props.btnhrf}>
          <button className="overbtn" style={sytbtndis}><h4 className="btntxt">{props.btntxt}</h4></button>
        </a>
