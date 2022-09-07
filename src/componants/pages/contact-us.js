@@ -39,7 +39,8 @@ export default function Contact(){
         
              <div className="success w-form-done"> 
                <p className='p' id='pk1' >
-                   always be ready
+               “How you look at it is pretty much how you'll see it”
+                 <br/> ― Rasheed Ogunlaru
                </p>
                <p className='p' id='pk2'>
    
